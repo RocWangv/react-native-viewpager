@@ -235,7 +235,7 @@ var ViewPager = React.createClass({
     }
   },
 
-  _getPage(pageIdx: number, loop = false: boolean) {
+  _getPage(pageIdx: number, loop : boolean = false) {
     var dataSource = this.props.dataSource;
     var pageID = dataSource.pageIdentities[pageIdx];
     return (
@@ -278,7 +278,7 @@ var ViewPager = React.createClass({
       bodyComponents.push(this._getPage(this.state.currentPage));
       pagesNum++;
 
-      // right page
+      // right page_getPage
       if (this.state.currentPage < pageIDs.length - 1) {
         bodyComponents.push(this._getPage(this.state.currentPage + 1));
         pagesNum++;
