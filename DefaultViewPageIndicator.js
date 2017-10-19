@@ -31,8 +31,7 @@ var styles = StyleSheet.create({
     height: DOT_SIZE,
     borderRadius: DOT_SIZE / 2,
     backgroundColor: '#E0E1E2',
-    marginLeft: DOT_SAPCE,
-    marginRight: DOT_SAPCE,
+    margin: DOT_SAPCE,
   },
 
   curDot: {
